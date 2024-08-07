@@ -1,0 +1,70 @@
+/*
+
+#050609
+#1E2A57
+#492D35
+#575761
+
+*/
+
+
+html, body{
+    padding: 0;
+    margin: 0;
+    font-family: "Trebuchet MS";}
+
+
+/* user registration */
+#main-user-reg{
+    height: 100vh;
+    width: 100%;
+    background: #050609;
+    padding: 100px 25%;
+}
+#main-user-reg .user-reg-left-cont{
+    height: 700px;
+    width: 35%;
+    background: #492D35;
+    padding: 50px 5%;
+    float: left;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+}
+#main-user-reg .user-reg-right-cont{
+    height: 700px;
+    width: 65%;
+    background: #575761;
+    padding: 50px 8%;
+    float: left;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+
+.reg-title{
+    margin: 80px 0px 20px 0px;
+    font-weight: bold;
+    font-size: 46px;
+    color: #fff;
+}
+
+
+.btn-bg-success{
+    padding: 14px 4%;
+    border: 1px solid #17a589;
+    background: #17a589;
+    color: #fff;
+    margin: 20px 0px 0px 10px;
+    text-align: center;
+    width: 120px !important;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+
+.custom-input{
+    padding: 12px 2% !important;
+    background: #797d7f !important;
+    border: 1px solid #797d7f !important;
+    border-radius: 3px !important;
+}
