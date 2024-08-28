@@ -12,7 +12,7 @@
        <div class="user-reg-right-cont">
 
            <h1 class="reg-title">Sign Up</h1>
-           <form>
+           <form action="{{ route('create-user') }}" method="POST">
                @csrf
                <div class="row">
                <section class="col-lg-6">
